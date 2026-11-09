@@ -1,0 +1,17 @@
+{
+  "name": "esports-training-analysis",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.14.0"
+  },
+  "scripts": {
+    "check:release-config": "node --check release.config.cjs"
+  },
+  "devDependencies": {
+    "@semantic-release/commit-analyzer": "13.0.1",
+    "@semantic-release/github": "12.0.10",
+    "@semantic-release/release-notes-generator": "14.1.1",
+    "semantic-release": "25.0.9"
+  }
+}
